@@ -1,7 +1,3 @@
-<script>
-
-</script>
-
 <header>
     <h1>
        <a href="https://the-privacy-dev.netlify.app/" target="_blank">
@@ -10,11 +6,11 @@
     </h1>
 </header>
 
-<style>Ï
-    header {
+
+<style>
+    header{
         background: #a5a3a3;
-        padding: 20px;
-        width: 100%;
+        padding: 10px;
     }
     h1 {
         margin: 0;
