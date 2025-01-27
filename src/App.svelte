@@ -1,12 +1,15 @@
 <script>
 	import Header from "./components/Header.svelte";
 	import Footer from "./components/Footer.svelte";
+	import Tabs from "./shared/Tabs.svelte";
+
+	let tabs = ["Current Polls", "Add New Poll"];
+	let activeTab = "Current Polls";
 </script>
 
 <Header />
 <main>
-	<h1>Hello World!</h1>
-	<p>This is an in progresss polling app built in Svelte!</p>
+	<Tabs {tabs} {activeTab} />
 </main>
 <Footer />
 
