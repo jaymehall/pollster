@@ -1,4 +1,7 @@
 <script>
+    import {createEventDispatcher} from "svelte";
+    const dispatch = createEventDispatcher();
+
     export let tabs;
     export let activeTab;
 </script>
@@ -7,7 +10,7 @@
 <div class="tabs">
     <ul>
         {#each tabs as tab}
-            <li>
+            <li on:click={() => dispatch("tabChange", tab)}>
                 <div class:active={tab === activeTab}>{tab}</div>
             </li>
         {/each}

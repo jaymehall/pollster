@@ -5,11 +5,15 @@
 
 	let tabs = ["Current Polls", "Add New Poll"];
 	let activeTab = "Current Polls";
+
+	const tabChange = (e) => {
+		activeTab = e.detail;
+	}
 </script>
 
 <Header />
 <main>
-	<Tabs {tabs} {activeTab} />
+	<Tabs {tabs} {activeTab} on:tabChange={tabChange}/>
 </main>
 <Footer />
 
