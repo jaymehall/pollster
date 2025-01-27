@@ -13,7 +13,7 @@
 
 <style>
      footer {
-         background: #a5a3a3;
+         background: #E1DFDFFF;
          padding: 20px;
          position: fixed;
          bottom: 0;
