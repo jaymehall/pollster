@@ -44,7 +44,7 @@
 <style>
 	main {
 		text-align: center;
-		max-width: 960px;
+		max-width: 960px !important;
 		margin: 40px auto;
 	}
 
