@@ -1,11 +1,14 @@
 <script>
+    import {createEventDispatcher} from "svelte";
+    const dispatch = createEventDispatcher();
     import Button from "../shared/Button.svelte";
 
     let fields = {question: "", answerA: "", answerB: ""}
     let errors = {...fields};
     const fieldRequiredMsg = "You must fill out this field";
-    const validateForm = () => {
-        let isValid = true;
+    let isValid = false;
+    const submitHandler = () => {
+        isValid = true;
         // validate question
         if(fields.question.trim().length < 5) {
             isValid = false;
@@ -29,13 +32,10 @@
         } else {
             errors.answerB = "";
         }
-
-        return isValid
-    }
-    const submitHandler = () => {
-       const isValid = validateForm();
        if(!isValid) return;
 
+       const poll = {...fields, votesA: 0, votesB: 0, id: Math.random()};
+       dispatch("add", poll);
     }
 </script>
 
