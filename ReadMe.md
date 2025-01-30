@@ -3,7 +3,7 @@
 # Svelte Pollster
 
 ## Description
-Create on vote on polls with this pollster app built with Svelte.js
+Create on vote on polls with this pollster app built with Svelte.
 
 ## Table of Contents
 - [Installation](#installation)
