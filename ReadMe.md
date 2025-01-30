@@ -3,7 +3,7 @@
 # Svelte Pollster
 
 ## Description
-Create on vote on polls with this pollster app built with Svelte.
+Create and vote on polls with this pollster app built with Svelte.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -44,6 +44,7 @@ N/A
 ## Next Steps
 - Build a BE, maybe in Python, that will allow us to store and persist data. 
 - Abstract the polls to a global store in Svelte so that all the data lives in one place on the client-side.
+- Add the ability to delete polls so this is a fully functional CRUD application.
 
 ## Questions
 For additional questions please contact:

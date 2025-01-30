@@ -9,6 +9,11 @@
             <Icon icon={"/img/xLogo.jpg"} url="https://x.com/theprivacydev" description="X Logo" />
             <Icon icon="/img/emailLogo.jpg" url="mailto:theprivacydev@protonmail.com" description="Email Logo" />
     </div>
+    <div class="code-link">
+        <a href="https://github.com/theprivacydev/pollster" target="_blank" rel="noreferrer">
+            View App Code
+        </a>
+    </div>
 </footer>
 
 <style>
@@ -30,5 +35,11 @@
          -webkit-box-align: center;
          -ms-flex-align: center;
          align-items: center;
+     }
+     .code-link{
+         margin-top: 10px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
      }
 </style>
