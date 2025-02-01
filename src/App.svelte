@@ -20,6 +20,14 @@
 			answerB: "React",
 			votesA: 100,
 			votesB: 10,
+		},
+		{
+			id: 1,
+			question: "Hello...?",
+			answerA: "World!",
+			answerB: "Huh?",
+			votesA: 70,
+			votesB: 30,
 		}
 	];
 
