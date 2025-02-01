@@ -14,7 +14,7 @@
 
 	let polls = [
 		{
-			id: 1,
+			id: -1,
 			question: "Svelte or React?",
 			answerA: "Svelte",
 			answerB: "React",
@@ -22,7 +22,7 @@
 			votesB: 10,
 		},
 		{
-			id: 1,
+			id: 0,
 			question: "Hello...?",
 			answerA: "World!",
 			answerB: "Huh?",
